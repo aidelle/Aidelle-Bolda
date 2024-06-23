@@ -10,7 +10,7 @@ function Projects() {
         <div className={styles.projectsContainer}>
            
             <ProjectCard src={lumawig} 
-            link=""
+            link="https://github.com/aidelle/lumawig_v.0.1"
             h3="lumawig"
             p="Browser Extension"
             
