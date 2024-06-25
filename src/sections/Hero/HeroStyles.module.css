@@ -5,6 +5,7 @@
     gap: 20px;
     text-align: center;
     height: 100dvh;
+    min-height: 500px;
 
 .hero{
     max-width: 200px;
@@ -65,6 +66,8 @@ button:active{
 
 .description{
     max-width: 24ch;
+    text-align: center;
+    margin-left: 14px;
     
 }
 

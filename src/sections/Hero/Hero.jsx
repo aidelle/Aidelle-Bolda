@@ -15,7 +15,7 @@ function Hero() {
   const {theme, toggleTheme} =useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
-  {/*const twitterIcon = theme === 'light' ? twitterLight : twitterDark;*/}
+  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -43,9 +43,9 @@ function Hero() {
           </h1>
           <h2>Web Developer</h2>
           <span>
-            {/* <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-            </a> */}
+          {/*<a href="https://github.com/aidelle" target="_blank">
+            <img src={twitterIcon} alt="Github icon" />
+            </a>*/}
             <a href="https://github.com/aidelle" target="_blank">
             <img src={githubIcon} alt="Github icon" />
             </a>
@@ -54,8 +54,7 @@ function Hero() {
             </a>
           </span>
           <p className={styles.description}>
-            A dedicated individual who is motivated to apply their current Web development skills in a professional
-          working environment and acquire any necessary additional skills as needed
+          A dedicated individual eager to apply their web development skills in a professional environment and acquire new skills as needed.
           </p>
         <a href={CV} download>
           <button className="hover" >
