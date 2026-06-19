@@ -41,7 +41,7 @@ function Hero() {
             <br />
             Bolda
           </h1>
-          <h2>Web Developer</h2>
+          <h2>IT Systems Engineer</h2>
           <span>
           {/*<a href="https://github.com/aidelle" target="_blank">
             <img src={twitterIcon} alt="Github icon" />
@@ -54,8 +54,7 @@ function Hero() {
             </a>
           </span>
           <p className={styles.description}>
-          A dedicated individual eager to apply their web development skills in a professional environment and acquire new skills as needed.
-          </p>
+          IT NOC professional supporting enterprise infrastructure, identity management, and endpoint operations in a fast-paced production environment. I handle access control through Active Directory, execute approval-based account lifecycle changes, and ensure compliance with security standards.</p>
         <a href={CV} download>
           <button className="hover" >
             Resume
